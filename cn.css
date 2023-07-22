@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+
+}
+.left div{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+
+}
+.left div li{
+    list-style: none;
+    margin-left: 30px;
+}
+.left div li span{
+    color: green;
+}
+.left div li.l-1{
+    font-size: 30px;
+    
+}
+.left img{
+    width: 70px;
+    height: 70px;
+}
+nav .right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .right .list{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.right button{
+    padding: 15px;
+    background-image: linear-gradient(to right, rgb(103, 88, 88),violet);
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+.main{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #dfc5c5 25%,rgb(29, 222, 251));
+    justify-content: center;
+    align-items: center;
+}
+.main1{
+    width: 50%;
+    margin-left: 100px;
+
+}
+.main2{
+    width: 50%;
+}
+.para-3 .heading{
+    margin: 10px 0 10px 0;
+}
+.list{
+    display: flex;
+}
+.list li{
+    margin: 20px 0 0 0;
+    list-style:none;
+    padding: 16px;
+}
+.search{
+    /* padding: 20px; */
+    /* background: #d82f2f; */
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-radius: 20px solid black; */
+    background: #fff;
+     border-radius: 0 20px 20px 0;
+}
+.search input{
+    padding:16px;
+    width: 70%;
+    border: none;
+}
+.search #btn{
+    padding: 12px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background-image: linear-gradient(to right, rgb(103, 88, 88),violet);
+    font-size: 20px;
+    color: white;
+    width: 200px;
+}
+
+
+
+
+/* jdlkldsl   conaiter -2 */
+.container-2{
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.div-image{
+    width: 50%;
+    text-align: center;
+    
+}
+.div-image img{
+    border-radius: 10px;
+    height: 500px;
+    width: 600px;
+}
+.para{
+    width: 50%;
+    margin-top: 50px;
+}
+.para>h1{
+    margin-bottom: 50px;
+    width: 85%;
+}
+.para .paragraph{
+    font-size: 20px;
+    width: 85%;
+}
+.wright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: 900;
+    width: 85%;
+}
+/* conainer -3 ............................................. */
+.card{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+.container-3{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25vw;
+    /* border: 2px solid red; */
+    height: 75vh;
+}
+.div-image-1 img{
+    width: 25vw;
+    height: 45vh;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+.para-1 h2{
+    /* text-align: center; */
+    margin-bottom: 10px;
+}
+.wighter {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    /* text-align: center; */
+}
+.para-1{
+    margin: 20px;
+}
+.center div{
+    margin-bottom: 10px;
+}
+.wighter-2 {
+    display: flex;
+    justify-content:end;
+    font-weight: 300;
+    font-style: italic;
+}
+/* container 4   .................. */
+.para-3{
+    padding: 10px;
+    justify-items: center;
+    margin-left: 300px;
+}
+.div-image-2 img{
+  width: 700px;
+  height: 600px;
+}
+.para-3 h3{
+    /* margin-bottom: 10px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.para-3 h1{
+    font-size: 40px;
+    margin:5px 0 5px 0 ;
+    text-transform: capitalize;
+}
+.para-3 .button{
+    margin-top: 70px;
+    padding: 16px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, red,violet);
+    font-size: 20px;
+    color: white;
+    width: 300px;
+}
+#last{
+    margin-top: 20px;
+    background-image: linear-gradient(to right, rgb(251, 246, 246),rgb(3, 202, 252));
+}
